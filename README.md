@@ -1,1 +1,1 @@
-recuerda que falta agregar los videos
+recuerda que falta agregar algunos videos 
