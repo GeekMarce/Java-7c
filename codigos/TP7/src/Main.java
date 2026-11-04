@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[]args){
 
-        //creamos objetos vehiculos
+        //creamos objetos vehiculoss
         Vehiculo Ale = new Vehiculo("Toyota", "Hilux", 2026, "ALEMAI", 0);
         Vehiculo Camion = new Vehiculo("Mercedes-Benz", "Actros", 2023, "CAM123", 150000);
         Vehiculo Furgon = new Vehiculo("Fiat", "Ducato", 2024, "FUR456", 35000);
