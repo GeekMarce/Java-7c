@@ -1,3 +1,3 @@
-public class Prestamo {
+public class Prestamo{
 
 }

@@ -10,13 +10,15 @@ public class MaterialBibliografico {
         tematica = iniciotematica;
         agnoPublicacion = incioagnopublicacion;
     }
-
+    
     public String gettitulo(){
         return titulo;
     }
+
     public String gettematica(){
         return tematica;
     }
+
     public int getagnopublicacion(){
         return agnoPublicacion;
     }
@@ -32,21 +34,4 @@ public class MaterialBibliografico {
             agnoPublicacion = nuevoAgnopublicacion;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
