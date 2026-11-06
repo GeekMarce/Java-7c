@@ -8,9 +8,11 @@ public class Main  {
         Libro libro3 = new Libro("1984", "Ciencia ficcion", 1949, "Secker & Warburg", "George Orwell");
         Libro libro4 = new Libro("Cien años de soledad", "Realismo magico", 1967, "Sudamericana", "Gabriel Garcia Marquez");
 
+        Revista revista1 = new Revista("National Geographic", "Ciencia y naturaleza", 2025, 1000);
+
 
         //pantalla de seleccion de modo de programa (por ahora solo uno)
-        int seleccion = Integer.parseInt(JOptionPane.showInputDialog(null, "Seleccione su operación : Consultarlibro (1)"));
+        int seleccion = Integer.parseInt(JOptionPane.showInputDialog(null, "Seleccione su operación : Consultarlibro (1), Revista (2)"));
 
         //hacemos un switch para elegir entre los distintos modos usando la variable seleccion
         // (iba a usar if pero creo que hubiese sido aun mas quilombo, switch en mi cabeza sonaba mas simple)
@@ -37,9 +39,21 @@ public class Main  {
                 }
                 break;
             
-
-            //casos de switch sin uso (por ahora)
             case 2:
+                String seleccionRevista = JOptionPane.showInputDialog("Seleccione su revista: National Geographic");
+
+                switch (seleccionRevista) {
+                    case "National Geographic":
+                        revista1.MostrarInfoRevista();
+                        break;
+                
+                    default:
+                        break;
+                }
+
+
+
+
                 break;
             default:
                 break;
