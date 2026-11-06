@@ -1,3 +1,3 @@
-public class Revista extends MaterialBibliografico{
-
-}
+//public class Revista extends MaterialBibliografico{
+//
+//}
